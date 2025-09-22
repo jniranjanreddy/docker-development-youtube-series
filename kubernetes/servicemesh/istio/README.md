@@ -1,7 +1,7 @@
 # Introduction to Istio
 
 ## We need a Kubernetes cluster
-
+## https://www.youtube.com/watch?v=_ImVPrUZ6yY&list=PLTiQErIEf8SZAHAfpl5DHW7ySOA-TqBSK
 Lets create a Kubernetes cluster to play with using [kind](https://kind.sigs.k8s.io/docs/user/quick-start/)
 
 ```
@@ -283,3 +283,4 @@ kubectl apply -f kubernetes/servicemesh/istio/canary/videos-web.yaml
 ```
 
 We can confirm this works, by setting the cookie value `version=v2` followed by accessing https://servicemesh.demo/home/ on a browser page <br/>
+
